@@ -250,7 +250,7 @@ h2 {
 .socials {
   display: flex;
   justify-content: center;
-  gap: 3.5rem;
+  gap: 4rem;
   margin-top: 1rem;
   flex-wrap: wrap;
 }
@@ -258,11 +258,11 @@ h2 {
 .socials a {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 1.2rem;
   text-decoration: none;
   color: #111;
   font-weight: 700;
-  font-size: 1.8rem;
+  font-size: 2rem; /* increased */
   transition: color 0.3s ease;
   user-select: none;
 }
@@ -273,8 +273,8 @@ h2 {
 }
 
 .social-icon {
-  width: 48px;
-  height: 48px;
+  width: 64px;  /* increased */
+  height: 64px; /* increased */
   filter: none;
 }
 
@@ -346,4 +346,44 @@ h2 {
 .footer-socials span {
   color: #ccc;
   font-weight: 600;
+}
+
+.tools {
+  background-color: #f0f0f5;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  padding: 3rem 2rem;
+  max-width: 700px;
+  margin: 3rem auto;
+  text-align: center;
+}
+
+.tool-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 2rem;
+}
+
+.tool {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 110px; /* increased */
+  gap: 0.6rem;
+}
+
+.tool img {
+  width: 80px;  /* increased */
+  height: 80px; /* increased */
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.tool span {
+  margin-top: 0.6rem;
+  font-weight: 700;
+  font-size: 1.2rem; /* increased */
+  color: #333;
 }
